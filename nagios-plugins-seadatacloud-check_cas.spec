@@ -10,6 +10,10 @@ BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 PreReq:  perl-Nagios-Plugin
 PreReq:  nagios-plugins
+Requires: perl
+Requires: perl-Getopt-Long
+Requires: perl-Net-SSLeay
+Requires: perl-Pod-Usage
 AutoReqProv: no
 
 %description
