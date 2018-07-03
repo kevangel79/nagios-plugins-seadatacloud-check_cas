@@ -24,7 +24,7 @@ Nagios probes to check functionality of cas server
 
 install -d %{buildroot}/%{_libexecdir}/argo-monitoring/probes/seadatacloud-cas
 install -d %{buildroot}/%{_sysconfdir}/nagios/plugins/seadatacloud-cas
-install -m 755 check_handle_resolution.pl %{buildroot}/%{_libexecdir}/argo-monitoring/probes/seadatacloud-cas/check_cas.pl
+install -m 755 check_cas.pl %{buildroot}/%{_libexecdir}/argo-monitoring/probes/seadatacloud-cas/check_cas.pl
 
 %files
 %dir /%{_libexecdir}/argo-monitoring
