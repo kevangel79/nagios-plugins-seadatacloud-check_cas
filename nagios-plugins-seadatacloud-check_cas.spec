@@ -8,8 +8,8 @@ Packager:	Themis Zamani <themiszamani@gmail.com>
 Source:		%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
-PreReq:  Nagios-Plugin
-PreReq:  perl-Nagios-Plugin
+PreReq:  nagios-plugin-perl
+PreReq:  nagios-plugin
 
 Requires: perl
 
