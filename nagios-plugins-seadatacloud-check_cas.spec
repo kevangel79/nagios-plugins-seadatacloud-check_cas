@@ -11,8 +11,6 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}
 PreReq:  perl-Nagios-Plugin
 PreReq:  nagios-plugins
 
-Requires: perl
-
 %description
 Nagios probes to check functionality of cas server
 
