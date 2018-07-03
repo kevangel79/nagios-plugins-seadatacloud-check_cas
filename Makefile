@@ -1,6 +1,6 @@
 PKGNAME=nagios-plugins-seadatacloud-check_cas
 SPECFILE=${PKGNAME}.spec
-FILES=Makefile ${SPECFILE} nagios-plugins-seadatacloud-check_cas.pl
+FILES=Makefile ${SPECFILE} check_cas.pl
 
 PKGVERSION=$(shell grep -s '^Version:' $(SPECFILE) | sed -e 's/Version: *//')
 
