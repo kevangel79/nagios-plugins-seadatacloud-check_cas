@@ -9,7 +9,7 @@ Source:		%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 PreReq:  nagios-plugin-perl
-PreReq:  nagios-plugin
+PreReq:  nagios-plugins
 
 Requires: perl
 
