@@ -2,7 +2,8 @@ PKGNAME=nagios-plugins-seadatacloud-check_cas
 SPECFILE=${PKGNAME}.spec
 FILES=Makefile ${SPECFILE} check_cas.pl
 
-PKGVERSION=$(shell grep -s '^Version:' $(SPECFILE) | sed -e 's/Version: *//')
+PKGVERSION=$(shell grep -s '^Version:' $(SPECFILE) | sed -e 's/Version:\s*//')
+
 
 dist:
 	rm -rf dist
