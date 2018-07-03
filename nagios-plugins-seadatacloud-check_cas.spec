@@ -10,7 +10,6 @@ BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 Requires:	perl
-Requires:	perl-JSON
 
 %description
 Nagios probes to check functionality of cas server
