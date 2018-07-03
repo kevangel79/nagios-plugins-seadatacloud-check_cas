@@ -1,11 +1,14 @@
+
 # CAS plugin for Nagios
 
 Nagios plugin to check CAS authentication
 
 ## Usage
-```
+
 NAME
+```
       check-cas.pl - Nagios CAS (Central authentication Service) check plugins.
+```
 
 DESCRIPTION
       Nagios CAS (Central authentication Service) check plugins. First it does
