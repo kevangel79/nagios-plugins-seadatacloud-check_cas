@@ -28,6 +28,11 @@ pipeline {
                         }
                         archiveArtifacts artifacts: '**/*.rpm', fingerprint: true
                     }
+                    post {
+                        always {
+                            cleanWs()
+                        }
+                    }
                 }
                 stage ('Build Centos 7') {
                     agent {
